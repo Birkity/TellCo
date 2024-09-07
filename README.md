@@ -1,6 +1,9 @@
 Telecom User Engagement Analysis
+
 Project Overview
-This project analyzes user engagement in a telecom dataset using metrics such as session frequency, session duration, and total traffic (download and upload). The analysis aims to:
+
+This project analyzes user engagement in a telecom dataset using metrics such as session frequency, 
+session duration, and total traffic (download and upload). The analysis aims to:
 
 Aggregate user engagement metrics per customer.
 Classify users into engagement clusters using K-means clustering.
