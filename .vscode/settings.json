@@ -1,6 +1,14 @@
 {
-    "python.pythonPath": "venv/bin/python",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.formatting.autopep8Path": "venv/bin/autopep8"
+  "python.pythonPath": "venv/bin/python",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.formatting.autopep8Path": "venv/bin/autopep8",
+  "python.analysis.extraPaths": [
+    "./scripts",
+    "./scripts"
+  ],
+  "cSpell.words": [
+    "dotenv",
+    "sqlalchemy"
+  ]
 }
