@@ -1,2 +1,4 @@
 venv/
 nltk_data/
+.env
+pyvenv.cfg
