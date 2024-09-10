@@ -5,12 +5,15 @@ Project Overview
 This project analyzes user engagement in a telecom dataset using metrics such as session frequency, 
 session duration, and total traffic (download and upload). The analysis aims to:
 
-Aggregate user engagement metrics per customer.
-Classify users into engagement clusters using K-means clustering.
-Identify the top applications and users by traffic.
-Optimize K-means clustering using the elbow method for determining the optimal number of clusters.
-Key Features
-Data Aggregation: Aggregates session frequency, duration, and total traffic per user.
-Clustering: Uses K-means clustering to segment users into engagement levels based on normalized metrics.
-Application Usage Analysis: Aggregates user traffic per application and identifies the top users and most used apps.
-Elbow Method: Optimizes K for K-means clustering using the elbow method.
+Key Analyses
+Exploratory Data Analysis (EDA):
+Initial exploration of the telecom dataset, including visualizing the distribution of handset types and descriptive statistics.
+
+Data Cleaning and Imputation:
+Handling missing values in key columns like RTT, throughput, and retransmission volumes using statistical methods (mean/median filling).
+
+Customer Experience & Engagement Clustering:
+Users are clustered based on network parameters such as average throughput, RTT, and TCP retransmissions. These clusters provide insights into the overall network experience.
+
+Satisfaction Score Visualization:
+Visualizing customer satisfaction based on engagement and experience scores to understand the quality of service and user perception.
